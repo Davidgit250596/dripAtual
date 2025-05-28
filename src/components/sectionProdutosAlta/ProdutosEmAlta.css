@@ -1,0 +1,15 @@
+.linkvertodos {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    color: #C92071;
+}
+
+.linkvertodos:hover {
+    color: #C92071;
+}
+
+.setinha {
+    color: #C92071;
+    text-decoration-color: #C92071;
+}

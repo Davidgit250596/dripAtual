@@ -1,0 +1,118 @@
+.grade {
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* background-color: white; */
+  border: 1px none #ddd;
+  box-shadow: #8f8f8f 0px 0px 7px;
+  border-radius: 8px;
+  padding: 20px;
+  height: 400px;
+  width: 300px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.modelo {
+  /* max-width: 60px;
+  max-height: 40px; */
+  margin-right: 60px;
+  margin-left: -30px;
+}
+
+.balao {
+  display: inline-block;
+  padding: 5px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(233, 117, 9);
+  margin-top: -20px;
+  margin-left: 3px;
+  margin-bottom: -10px;
+  /* position: absolute; */
+}
+
+.imagem {
+  background-color:#f8f9fe;
+  width: 190px;
+  height: 150px;
+  top: 332px;
+  left: 420px;
+  padding: 20px;
+  margin: 5px;
+  margin-top: -5px;
+}
+
+.tenis {
+  margin-left: -45px;
+  margin-top: -25px;
+  width: 220px;
+  /* height: 134px; */
+  top: 495px;
+  left: 410px;
+  justify-items: center;
+  justify-content: center;
+}
+
+.textotenis {
+  color: #8f8f8f;
+  font-family: inter;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  margin: 0px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 3px;
+}
+
+.modelotenis {
+  display: flex;
+  justify-content: center;
+  color: #474747;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.75px;
+  margin: 0;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+
+.preco {
+  display: flex;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500px;
+  margin-left: 20px;
+}
+
+.preco1 {
+  color: #8f8f8f;
+  width: 69px;
+  height: 38px;
+  margin-top: 10px;
+  margin-left: 20px;
+  
+  border-width: 1px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.preco2 {
+  width: 63px;
+  height: 38px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500px;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.75px;
+  margin: 3px;
+  margin-left: -80px;
+  margin-top: 40px;
+}

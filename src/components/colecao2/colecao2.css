@@ -1,0 +1,161 @@
+.colecoesEmDestaqueDois {
+    justify-content: center;
+    background-color: rgb(249 248 254);
+}
+
+.iconescolecoes {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    padding: 80px;
+    gap: 52px;
+}
+
+.secprincipalicones {
+    background-color: rgb(249 248 254);
+    padding-bottom: 50px;
+
+}
+
+.secblusas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    gap: 30px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
+}
+
+.blusas {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 60px;
+
+}
+
+.textoblusa {
+    font-weight: 630;
+    font-family: "inter" sans-serif;
+    font-size: larger;
+    font: normal;
+}
+
+.seccalcas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
+}
+
+.calcas {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 60px;
+}
+
+.textocalca {
+    font-weight: 630;
+    font-family: "inter" sans-serif;
+    font-size: larger;
+    font: normal;
+}
+
+.secbones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    gap: 30px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
+}
+
+.bones {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 54px;
+}
+
+.textobones {
+    font-weight: 630;
+    font-family: "inter" sans-serif;
+    font-size: larger;
+    font: normal;
+}
+
+.secheadphones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    gap: 30px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
+}
+
+.headphones {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 64px;
+}
+
+.textoheadphones {
+    font-weight: 630;
+    font-family: "inter" sans-serif;
+    font-size: larger;
+    font: normal;
+}
+
+.sectenis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
+}
+
+.sapatin {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin-top: 60px;
+    margin-left: 10px;
+
+    
+    
+    
+}
+
+.textoSapatoColecao {
+    font-weight: 630;
+    font-family: "inter" sans-serif;
+    font-size: larger;
+    font: normal;
+    margin-top: 30px;
+    
+
+}

@@ -1,0 +1,23 @@
+.pagina2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.filtro {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+  margin-right: 0px;
+  border-radius: 10px;
+}
+.card {
+  display: inline-block;
+  justify-content: space-around;
+  margin: 0px;
+  margin-left: 40px;
+  width: 1050px;
+  border: 1px none #ddd;
+  background-color: #f8f9fe;
+  
+}

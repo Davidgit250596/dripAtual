@@ -1,0 +1,237 @@
+.colecoesEmDestaqueUm {
+    background-color: rgb(249 248 254);
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    width: 100%;
+    height: 50%;
+
+}
+
+.textoColecoesUm {
+    display: flex;
+    justify-content: center;
+    letter-spacing: .75px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+}
+
+.divPrincipalColecoes {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    margin-bottom: 130px;
+
+}
+
+.divBlusaSupreme {
+    display: flex;
+    background-color: rgb(216 227 242);
+    border-radius: 10px;
+    width: 390px;
+    height: 245px;
+    justify-content: end;
+    position: relative;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.20);
+
+}
+
+.trintaoff {
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    border-radius: 1.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: .75px;
+    background-color: rgb(231 255 134);
+    /* Alinhamento da Div 30OFF */
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 100px;
+
+}
+
+.novodrop {
+    display: flex;
+    align-items: center;
+    font-size: 33px;
+    letter-spacing: .5px;
+    line-height: 36px;
+    font-weight: 790;
+    width: 190px;
+    height: 80%;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+.btncomprarsupreme {
+    border-radius: .5rem;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "inter", sans-serif;
+    font-weight: 700;
+    letter-spacing: .75px;
+    line-height: 24px;
+    width: 153px;
+    height: 48px;
+    color: rgb(201 32 113);
+    position: absolute;
+    right: 215px;
+    top: 180px;
+    background-color: rgb(255 255 255);
+}
+
+.btncomprarsupreme:hover {
+    background-color: rgb(149, 189, 254);
+    transition-duration: 0.5s;
+    color: rgb(245 245 245);
+
+}
+
+.divSapatoAdidas {
+    background-color: rgb(216 227 242);
+    border-radius: 8px;
+    width: 390px;
+    height: 245px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.20);
+}
+
+.trintaoffdois {
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    border-radius: 1.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: .75px;
+    background-color: rgb(231 255 134);
+    /* Alinhamento da Div 30OFF */
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 100px;
+}
+
+.novodropdois {
+    display: flex;
+    align-items: center;
+    font-size: 33px;
+    letter-spacing: .5px;
+    line-height: 36px;
+    font-weight: 790;
+    width: 190px;
+    height: 80%;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+.btncompraradidas {
+    border-radius: .5rem;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "inter", sans-serif;
+    font-weight: 700;
+    letter-spacing: .75px;
+    line-height: 24px;
+    width: 153px;
+    height: 48px;
+    color: rgb(201 32 113);
+    position: absolute;
+    right: 205px;
+    top: 175px;
+    background-color: rgb(255 255 255);
+}
+
+.btncompraradidas:hover {
+    background-color: rgb(149, 189, 254);
+    transition-duration: 0.5s;
+    color: rgb(245 245 245);
+}
+
+.divFoneBeatsBass {
+    background-color: rgb(216 227 242);
+    border-radius: 8px;
+    width: 390px;
+    height: 245px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.20);
+}
+
+.trintaofftres {
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    border-radius: 1.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: .75px;
+    background-color: rgb(231 255 134);
+    /* Alinhamento da Div 30OFF */
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.novodroptres {
+    display: flex;
+    align-items: center;
+    font-size: 33px;
+    letter-spacing: .5px;
+    line-height: 36px;
+    font-weight: 790;
+    width: 180px;
+    height: 80%;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.btncomprarfone {
+    border-radius: .5rem;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "inter", sans-serif;
+    font-weight: 700;
+    letter-spacing: .75px;
+    line-height: 24px;
+    width: 153px;
+    height: 48px;
+    color: rgb(201 32 113);
+    position: absolute;
+    right: 205px;
+    top: 175px;
+    background-color: rgb(255 255 255);
+}
+
+.btncomprarfone:hover {
+    background-color: rgb(149, 189, 254);
+    transition-duration: 0.5s;
+    color: rgb(245 245 245);
+}
