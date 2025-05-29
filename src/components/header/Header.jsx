@@ -1,6 +1,6 @@
 import './Header.css';
-import logo from "../../assets/logo.png";
-import lupa from "../../assets/Search.png";
+import logo from "../../assets/imgHeader/logo.png";
+import lupa from "../../assets/imgHeader/Search.png";
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import carrinho from '../../assets/img/carrinhodecompras.png';
