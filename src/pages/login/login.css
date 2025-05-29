@@ -9,24 +9,17 @@
     gap: 25px;
     height: 500px;
     border-radius: 16px;
- 
-    
-    
 }
 .formLogin{
     display: flex;
     flex-direction: column;
-    
 }
 .mainLogin{
     display: flex;
     background-color: #b5b6f2;
     padding: 48px 0 50px 0;
     margin-bottom: 40px;
-    
 }
-
-
 .inputLogin{
     height: 30px;
     background-color: #f8f6f6;
@@ -34,20 +27,15 @@
     padding: 10px;
     margin: 10px 0 10px;
     width: 100%;
-    
-    
 }
 .esqueciSenha{
     margin-left: 110px;
     color: black;
-    
 }
 .registreAqui{
     color: black;
     font-weight: 500;
-    
 }
-
 button{
     background-color: #C92071;
     color: #fff;
@@ -56,7 +44,6 @@ button{
     border:none ;
     margin-top: 10px;
 }
-
 .facebookLogin{
     display: flex;
     justify-content: center;

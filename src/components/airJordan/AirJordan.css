@@ -2,34 +2,26 @@
     background-color: white;
     padding: 115px 0 115px 0;
 }
-
-.jordangeral {
+.jordanGeral {
     display: flex;
     margin-left: 100px;
     gap: 100px;
 }
-
-.jordanimg {
+.jordanImg {
     display: flex;
-   
-
 }
 .divJordan {
     margin-right: 190px;
 }
-
-.jordanp {
+.jordanP1 {
     color: #C92071;
     font-family: "inter";
     font-weight: 700;
     font-size: 14px;
     line-height: 38px;
     letter-spacing: 0.75px;
-
-
 }
-
-.jordanp2 {
+.jordanP2 {
     font-family: "inter";
     font-size: 48px;
     line-height: 50px;
@@ -37,10 +29,7 @@
     color: #474747;
     margin-bottom: 20px;
     font-weight: 700;
-
-
 }
-
 .buttonJordan {
     color: white;
     background-color: #C92071;
@@ -49,8 +38,6 @@
     border: 1px none;
     border-radius: 8px;
     margin-top: 30px;
-
-
 }
 .buttonJordan:hover{
     background-color: #89194f;

@@ -2,23 +2,18 @@
     justify-content: center;
     background-color: rgb(249 248 254);
 }
-
-.iconescolecoes {
+.iconesColecoes {
     display: flex;
     justify-content: center;
     margin: 40px;
     padding: 80px;
     gap: 52px;
 }
-
-
-.secprincipalicones {
+.secPrincipalIcones {
     background-color: rgb(249 248 254);
     padding-bottom: 50px;
-
 }
-
-.secblusas {
+.secBlusas {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -30,7 +25,7 @@
     gap: 30px;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
 }
-.secblusas:hover{
+.secBlusas:hover{
    padding-bottom: 10px;
 }
 .blusas {
@@ -38,17 +33,14 @@
     justify-content: center;
     align-self: center;
     margin-top: 60px;
-
 }
-
-.textoblusa {
+.textoBlusa {
     font-weight: 630;
     font-family: "inter" sans-serif;
     font-size: larger;
     font: normal;
 }
-
-.seccalcas {
+.secCalcas {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,25 +52,22 @@
     gap: 30px;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
 }
-.seccalcas:hover{
+.secCalcas:hover{
    padding-bottom: 10px;
 }
-
 .calcas {
     display: flex;
     justify-content: center;
     align-self: center;
     margin-top: 60px;
 }
-
-.textocalca {
+.textoCalca {
     font-weight: 630;
     font-family: "inter" sans-serif;
     font-size: larger;
     font: normal;
 }
-
-.secbones {
+.secBones {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,7 +79,7 @@
     gap: 30px;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
 }
-.secbones:hover{
+.secBones:hover{
    padding-bottom: 10px;
 }
 .bones {
@@ -99,15 +88,13 @@
     align-self: center;
     margin-top: 54px;
 }
-
-.textobones {
+.textoBones {
     font-weight: 630;
     font-family: "inter" sans-serif;
     font-size: larger;
     font: normal;
 }
-
-.secheadphones {
+.secHeadPhones {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,25 +106,22 @@
     gap: 30px;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
 }
-.secheadphones:hover{
+.secHeadPhones:hover{
    padding-bottom: 10px;
 }
-
-.headphones {
+.headPhones {
     display: flex;
     justify-content: center;
     align-self: center;
     margin-top: 64px;
 }
-
-.textoheadphones {
+.textoHeadPhones {
     font-weight: 630;
     font-family: "inter" sans-serif;
     font-size: larger;
     font: normal;
 }
-
-.sectenis {
+.secTenis {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,7 +132,7 @@
     border-radius: 50%;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
 }
-.sectenis:hover{
+.secTenis:hover{
    padding-bottom: 10px;
 }
 .sapatin {
@@ -157,18 +141,11 @@
     align-self: center;
     margin-top: 60px;
     margin-left: 10px;
-
-    
-    
-    
 }
-
 .textoSapatoColecao {
     font-weight: 630;
     font-family: "inter" sans-serif;
     font-size: larger;
     font: normal;
     margin-top: 30px;
-    
-
 }

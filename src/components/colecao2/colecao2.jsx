@@ -5,50 +5,47 @@ import Bone from "../../assets/imgColecao2/bone.png";
 import HeadPhone from "../../assets/imgColecao2/headphone.png";
 import Tenis from "../../assets/imgColecao2/tenis.png";
 
-
 export default function () {
     return (
         <section className="colecoesEmDestaqueDois">
-            <div className="divprincipalicones">
 
+            <div className="divPrincipalIcones">
                 <div>
                     <h1 className="textoColecoesUm">Coleções em destaques</h1>
                 </div>
+                <section className="secPrincipalIcones">
 
-                <section className="secprincipalicones">
-
-                    <div className="iconescolecoes">
-                        <section className="secblusas">
+                    <div className="iconesColecoes">
+                        <section className="secBlusas">
                             <div className="blusas">
                                 <a href="/Pagina2"><img src={Blusa} alt="" /></a>
                             </div>
-                            <div className="textoblusa">Blusas</div>
+                            <div className="textoBlusa">Blusas</div>
                         </section>
 
-                        <section className="seccalcas">
+                        <section className="secCalcas">
                             <div className="calcas">
                                 <a href="/Pagina2"><img src={Calca} alt="" /></a>
                             </div>
-                            <div className="textocalca">Calças</div>
+                            <div className="textoCalca">Calças</div>
                         </section>
 
-                        <section className="secbones">
-
+                        <section className="secBones">
                             <div className="bones">
                                 <a href="/Pagina2"><img src={Bone} width="70px" alt="" /></a>
                             </div>
-                            <div className="textobones">Bonés</div>
+                            <div className="textoBones">Bonés</div>
                         </section>
 
-                        <section className="secheadphones">
+                        <section className="secHeadPhones">
 
-                            <div className="headphones">
+                            <div className="headPhones">
                                 <a href="/Pagina2"><img src={HeadPhone} alt="" /></a>
                             </div>
-                            <div className="textoheadphones">HeadPhones</div>
+                            <div className="textoHeadPhones">HeadPhones</div>
                         </section>
 
-                        <section className="sectenis">
+                        <section className="secTenis">
                             <div className="sapatin">
                                 <a href="/Pagina2"> <img src={Tenis} alt="" /></a>
                             </div>
@@ -57,8 +54,6 @@ export default function () {
                     </div>
                 </section>
             </div>
-
         </section>
-
     );
 }

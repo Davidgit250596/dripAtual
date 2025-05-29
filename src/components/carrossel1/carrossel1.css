@@ -1,14 +1,13 @@
-.itensDoCarrossel img{
+.itensDoCarrossel img {
     height: 720px;
 }
 .carousel-indicators {
     gap: 40px;
-
 }
 .carousel-item {
-  transition: transform 2.5s ease-in-out; /* Aumente o tempo aqui (1.5s, 2s, etc) */
+    transition: transform 2.5s ease-in-out;
+    /* Aumente o tempo aqui (1.5s, 2s, etc) */
 }
-
 .carousel-indicators button {
     display: flex;
     max-width: 15px;
@@ -16,43 +15,35 @@
     border-radius: 50%;
     border: none;
     background-color: #C92071 !important;
-
 }
-
-.divqueima {
+.divQueima {
     background-color: rgb(245 245 245);
     display: flex;
     position: relative;
     padding: 100px;
     height: 720px;
 }
-
-.melhoresofertas {
+.melhoresOfertas {
     margin-left: 35px;
 }
-
 .melhores {
     font-size: 120%;
     color: rgb(246 170 28);
     margin-top: 20px;
     font: 16px;
 }
-
-.queimadeestoque {
+.queimaDeEstoque {
     font-size: 64px;
     font-weight: 700;
     font-style: normal;
-
 }
-
-.imgfoguinho {
+.imgFoguinho {
     display: flex;
     justify-self: end;
     position: absolute;
     left: 540px;
     top: 231px;
 }
-
 .consequat {
     font-size: 17.5px;
     opacity: 80%;
@@ -60,8 +51,7 @@
     margin: 40px 0 40px 0;
     line-height: 1.6;
 }
-
-.btn-verofertas {
+.btn-verOfertas {
     background-color: rgb(201 32 113);
     width: 210px;
     height: 50px;
@@ -73,13 +63,9 @@
     margin-top: 40px;
     margin-left: 90px;
 }
-.btn-verofertas:hover{
+.btn-verOfertas:hover {
     background-color: #89194f;
 }
-.sapatoprodutos{
-    width: 10px;
-}
-
 .sapato {
     display: flex;
     width: 100%;
@@ -87,10 +73,8 @@
     position: relative;
     bottom: 80px;
     left: 100px;
-
 }
-
-.bolinhasapato {
+.bolinhaSapato {
     position: absolute;
     right: 100px;
 }

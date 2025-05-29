@@ -11,7 +11,7 @@ import Img4 from "../../assets/imgCarrossel1/5home-slide-.jpeg";
 
 export default function () {
     return (
-        
+
         <section className="sectionqueimaestoque">
 
             <div id="carouselExampleDark" className="carousel carousel-dark carousel-fade" data-bs-ride="carousel">
@@ -36,68 +36,53 @@ export default function () {
                 </div>
 
                 <div className="carousel-inner">
-
                     <div className="carousel-item active" data-bs-interval="4000">
-
-                        <div className="divqueima">
-
-                            <div className="melhoresofertas">
+                        <div className="divQueima">
+                            <div className="melhoresOfertas">
                                 <h4 className="melhores">Melhores ofertas personalizadas</h4>
+                                <h1 className="queimaDeEstoque">Queima de estoque Nike</h1>
+                                <img className="imgFoguinho" src={ImgFoguinho} width="50px" alt="" />
+                                <h1 className="consequat">Consequat culpa exercitation mollit nisi excepteur do do tempor
+                                    laboris
+                                    eiusmod irure consectetur.</h1>
 
-                                <h1 className="queimadeestoque">Queima de estoque Nike</h1>
-
-                                <img className="imgfoguinho" src={ImgFoguinho} width="50px" alt=""/>
-
-                                    <h1 className="consequat">Consequat culpa exercitation mollit nisi excepteur do do tempor
-                                        laboris
-                                        eiusmod irure consectetur.</h1>
-
-                                    <a href="/Pagina2"><button type="button" className="btn-verofertas">Ver
-                                        Ofertas</button></a>
+                                <a href="/Pagina2"><button type="button" className="btn-verOfertas">Ver
+                                    Ofertas</button></a>
                             </div>
 
                             <div className="sapato">
-                                <img src={ImgSapato} alt=""/>
+                                <img src={ImgSapato} alt="" />
                             </div>
 
                             <div>
-                                <img className="bolinhasapato" src={ImgBolinhaSapato} alt="" />
+                                <img className="bolinhaSapato" src={ImgBolinhaSapato} alt="" />
                             </div>
-
                         </div>
-
                     </div>
-
 
                     <div className="carousel-item itensDoCarrossel" data-bs-interval="4000">
                         <img src={Img1} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-
-                            </div>
+                        <div className="carousel-caption d-none d-md-block">
+                        </div>
                     </div>
 
                     <div className="carousel-item itensDoCarrossel" data-bs-interval="4000">
                         <img src={Img2} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-
-                            </div>
+                        <div className="carousel-caption d-none d-md-block">
+                        </div>
                     </div>
 
                     <div className="carousel-item itensDoCarrossel" data-bs-interval="4000">
                         <img src={Img3} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-
-                            </div>
+                        <div className="carousel-caption d-none d-md-block">
+                        </div>
                     </div>
 
                     <div className="carousel-item itensDoCarrossel" data-bs-interval="4000">
                         <img src={Img4} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-
-                            </div>
+                        <div className="carousel-caption d-none d-md-block">
+                        </div>
                     </div>
-
-
                 </div>
 
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
@@ -111,9 +96,7 @@ export default function () {
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
-
             </div>
-
         </section>
     );
 }

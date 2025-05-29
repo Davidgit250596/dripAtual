@@ -5,16 +5,15 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import carrinho from '../../assets/img/carrinhodecompras.png';
 
-
 export default function Header() {
     const [selectedLink, setSelectedLink] = useState('Home');
-
     const handleClick = (linkname) => { setSelectedLink(linkname) };
+
     return (
         <header className="cabeca">
-            <div className="divheadertoda">
+            <div className="divHeaderToda">
 
-                <div className="imagemlogodigital">
+                <div className="imagemLogoDigital">
                     <Link to={'/'} ><img src={logo} alt="logotipo da drip store" /></Link>
                 </div>
 
@@ -23,16 +22,11 @@ export default function Header() {
                     <Link to={'/pagina2'} ><img src={lupa} alt="Buscar" className="icone-lupa" /></Link>
                 </div>
 
-                <div className="linkcadastro">
-                    <Link to="/Cadastro" className="linkcadastrese btn-cadastro">Cadastre-se</Link>
-
+                <div className="linkCadastro">
+                    <Link to="/Cadastro" className=" btn-cadastro">Cadastre-se</Link>
                     <Link to="/Login"> <button type="button" className="entrar">Entrar</button></Link>
-
-                    <Link to="/carrinho" > <img className="imagemcarrinho" src={carrinho} alt="" /> </Link>
-
-
+                    <Link to="/carrinho" > <img className="imagemCarrinho" src={carrinho} alt="" /> </Link>
                 </div>
-
             </div>
 
             <div className="linksHeader">
@@ -68,9 +62,7 @@ export default function Header() {
                 >
                     Meus Pedidos
                 </Link>
-
             </div>
         </header>
-
     );
 }

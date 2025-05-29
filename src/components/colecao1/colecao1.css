@@ -4,9 +4,7 @@
     padding-bottom: 1.75rem;
     width: 100%;
     height: 50%;
-
 }
-
 .textoColecoesUm {
     display: flex;
     justify-content: center;
@@ -16,15 +14,12 @@
     font-family: "Inter", sans-serif;
     font-size: 24px;
 }
-
 .divPrincipalColecoes {
     display: flex;
     justify-content: space-around;
     margin: 40px;
     margin-bottom: 130px;
-
 }
-
 .divBlusaSupreme {
     display: flex;
     background-color: rgb(216 227 242);
@@ -34,10 +29,8 @@
     justify-content: end;
     position: relative;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.20);
-
 }
-
-.trintaoff {
+.trintaOff {
     display: flex;
     width: 100%;
     font-size: 14px;
@@ -55,10 +48,8 @@
     top: 30px;
     left: 20px;
     width: 100px;
-
 }
-
-.novodrop {
+.novoDrop {
     display: flex;
     align-items: center;
     font-size: 33px;
@@ -70,8 +61,7 @@
     margin-left: 35%;
     margin-top: 20px;
 }
-
-.btncomprarsupreme {
+.btn-ComprarSupreme {
     border-radius: .5rem;
     border: none;
     text-align: center;
@@ -89,14 +79,11 @@
     top: 180px;
     background-color: rgb(255 255 255);
 }
-
-.btncomprarsupreme:hover {
+.btn-ComprarSupreme:hover {
     background-color:  #c92071;
     transition-duration: 0.5s;
     color: rgb(245 245 245);
-
 }
-
 .divSapatoAdidas {
     background-color: rgb(216 227 242);
     border-radius: 8px;
@@ -107,8 +94,7 @@
     position: relative;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.20);
 }
-
-.trintaoffdois {
+.trintaOffDois {
     display: flex;
     width: 100%;
     font-size: 14px;
@@ -127,8 +113,7 @@
     left: 30px;
     width: 100px;
 }
-
-.novodropdois {
+.novoDropDois {
     display: flex;
     align-items: center;
     font-size: 33px;
@@ -140,8 +125,7 @@
     margin-left: 35%;
     margin-top: 20px;
 }
-
-.btncompraradidas {
+.btn-ComprarAdidas {
     border-radius: .5rem;
     border: none;
     text-align: center;
@@ -159,13 +143,11 @@
     top: 175px;
     background-color: rgb(255 255 255);
 }
-
-.btncompraradidas:hover {
+.btn-ComprarAdidas:hover {
     background-color:  #c92071;
     transition-duration: 0.5s;
     color: rgb(245 245 245);
 }
-
 .divFoneBeatsBass {
     background-color: rgb(216 227 242);
     border-radius: 8px;
@@ -176,8 +158,7 @@
     position: relative;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.20);
 }
-
-.trintaofftres {
+.trintaOffTres {
     display: flex;
     width: 100%;
     font-size: 14px;
@@ -197,8 +178,7 @@
     width: 100px;
     margin-top: 20px;
 }
-
-.novodroptres {
+.novoDropTres {
     display: flex;
     align-items: center;
     font-size: 33px;
@@ -210,8 +190,7 @@
     margin-left: 25%;
     margin-top: 20px;
 }
-
-.btncomprarfone {
+.btn-ComprarFone {
     border-radius: .5rem;
     border: none;
     text-align: center;
@@ -229,8 +208,7 @@
     top: 175px;
     background-color: rgb(255 255 255);
 }
-
-.btncomprarfone:hover {
+.btn-ComprarFone:hover {
     background-color:  #c92071;
     transition-duration: 0.5s;
     color: rgb(245 245 245);

@@ -5,24 +5,19 @@
     flex-wrap: wrap;
     flex-direction: column;
     padding: 1rem;
-
 }
-
-
-.divheadertoda {
+.divHeaderToda {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
     margin-top: 20px;
 }
-
-.imagemlogodigital img {
+.imagemLogoDigital img {
     max-width: 250px;
     height: 40px;
     margin-left: 100px;
 }
-
 .container-pesquisa {
     background-color: whitesmoke;
     display: flex;
@@ -33,11 +28,8 @@
     overflow: hidden;
     margin-right: 100px;
     height: 60px;
-
 }
-
 .input-pesquisa {
-
     background-color: whitesmoke;
     /*campo de pesquisa*/
     border: none;
@@ -51,15 +43,13 @@
     font-size: 13px;
     /* Tamanho da fonte do texto (opcional) */
 }
-
 .icone-lupa {
     width: 20px;
     height: 20px;
     cursor: pointer;
     opacity: 60%;
 }
-
-.linkcadastro {
+.linkCadastro {
     display: flex;
     align-items: center;
     gap: 30px;
@@ -67,7 +57,6 @@
 
 
 }
-
 .btn-cadastro {
     padding: 15px 10px;
     color: #000000;
@@ -75,12 +64,10 @@
     font-size: 17px;
     font-weight: 600;
 }
-
 .btn-cadastro:hover {
     color: #c92071;
     padding-top: 10px
 }
-
 .entrar {
     background-color: #c92071;
     color: #f5f5f5;
@@ -95,26 +82,28 @@
 .entrar:hover{
     background-color: #89194f;
 }
-
-.imagemcarrinho {
+.imagemCarrinho {
     width: 24px;
     height: 24px;
     margin-left: 10px;
 }
-.imagemcarrinho:hover{
-    
+.imagemCarrinho:hover{
     margin-bottom: 10px;
 }
-
 .links {
     color: #474747;
     height: 30px;
-
 }
 .links:hover{
     padding-top: 2px;
 }
-
+.links a:hover {
+    list-style: none;
+    color: rgb(201 32 113);
+    border-bottom: 3px solid rgb(201 32 113);
+    border-radius: 0px;
+    padding-bottom: 2px;
+}
 .linksHeader {
     background-color: #ffffff;
     margin-left: 120px;
@@ -126,38 +115,21 @@
     font-size: 17px;
     list-style: none;
     gap: 1rem;
-
-
 }
-
 .linksHeader a {
     color: #000000;
     text-decoration: none;
-    
-
 }
-
-
 .linksHeader a:hover {
     color: rgb(201 32 113);
     font-weight: 650;
     border-bottom: 4px solid rgb(201 32 113);
     border-radius: 1.5px;
 }
-
 .links.selected {
     border-bottom: 4px solid rgb(201 32 113);
     border-radius: 1.5px;
 }
-
-.links a:hover {
-    list-style: none;
-    color: rgb(201 32 113);
-    border-bottom: 3px solid rgb(201 32 113);
-    border-radius: 0px;
-    padding-bottom: 2px;
-}
-
 .principal {
     display: flex;
     padding: 15px;

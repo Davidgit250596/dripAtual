@@ -4,9 +4,6 @@ import Colecao2 from "../../components/colecao2/colecao2";
 import AirJordan from "../../components/airJordan/AirJordan";
 import ProdutosEmAlta from "../../components/sectionProdutosAlta/ProdutosEmAlta";
 import Card from "../../components/card/Card";
-import Img from "../../assets/imgpagina3/avaliação.png";
-import Footer from "../../components/footer/footer";
-import Header from "../../components/header/Header";
 import "./pagina1.css";
 
 export default function Pagina1() {
