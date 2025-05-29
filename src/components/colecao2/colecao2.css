@@ -27,6 +27,8 @@
 }
 .secBlusas:hover{
    padding-bottom: 10px;
+   box-shadow: 4px 4px 4px 0 rgba(255, 38, 194, 0.708);
+
 }
 .blusas {
     display: flex;
@@ -54,6 +56,7 @@
 }
 .secCalcas:hover{
    padding-bottom: 10px;
+   box-shadow: 4px 4px 4px 0 rgba(255, 38, 194, 0.708);
 }
 .calcas {
     display: flex;
@@ -81,6 +84,7 @@
 }
 .secBones:hover{
    padding-bottom: 10px;
+   box-shadow: 4px 4px 4px 0 rgba(255, 38, 194, 0.708);
 }
 .bones {
     display: flex;
@@ -108,6 +112,7 @@
 }
 .secHeadPhones:hover{
    padding-bottom: 10px;
+   box-shadow: 4px 4px 4px 0 rgba(255, 38, 194, 0.708);
 }
 .headPhones {
     display: flex;
@@ -130,10 +135,11 @@
     height: 100px;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
-    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.5);
 }
 .secTenis:hover{
    padding-bottom: 10px;
+   box-shadow: 4px 4px 4px 0 rgba(255, 38, 194, 0.708);
 }
 .sapatin {
     display: flex;
