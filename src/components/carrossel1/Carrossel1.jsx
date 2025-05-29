@@ -14,7 +14,7 @@ export default function () {
         
         <section className="sectionqueimaestoque">
 
-            <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div id="carouselExampleDark" className="carousel carousel-dark carousel-fade" data-bs-ride="carousel">
 
 
                 <div className="carousel-indicators">
@@ -37,7 +37,7 @@ export default function () {
 
                 <div className="carousel-inner">
 
-                    <div className="carousel-item active" data-bs-interval="3000">
+                    <div className="carousel-item active" data-bs-interval="4000">
 
                         <div className="divqueima">
 
@@ -69,28 +69,28 @@ export default function () {
                     </div>
 
 
-                    <div className="carousel-item itensDoCarrossel" data-bs-interval="3000">
+                    <div className="carousel-item itensDoCarrossel" data-bs-interval="4000">
                         <img src={Img1} className="d-block w-100" alt="..." />
                             <div className="carousel-caption d-none d-md-block">
 
                             </div>
                     </div>
 
-                    <div className="carousel-item itensDoCarrossel" data-bs-interval="3000">
+                    <div className="carousel-item itensDoCarrossel" data-bs-interval="4000">
                         <img src={Img2} className="d-block w-100" alt="..." />
                             <div className="carousel-caption d-none d-md-block">
 
                             </div>
                     </div>
 
-                    <div className="carousel-item itensDoCarrossel" data-bs-interval="3000">
+                    <div className="carousel-item itensDoCarrossel" data-bs-interval="4000">
                         <img src={Img3} className="d-block w-100" alt="..." />
                             <div className="carousel-caption d-none d-md-block">
 
                             </div>
                     </div>
 
-                    <div className="carousel-item itensDoCarrossel" data-bs-interval="3000">
+                    <div className="carousel-item itensDoCarrossel" data-bs-interval="4000">
                         <img src={Img4} className="d-block w-100" alt="..." />
                             <div className="carousel-caption d-none d-md-block">
 

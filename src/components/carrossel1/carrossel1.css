@@ -5,6 +5,9 @@
     gap: 40px;
 
 }
+.carousel-item {
+  transition: transform 2.5s ease-in-out; /* Aumente o tempo aqui (1.5s, 2s, etc) */
+}
 
 .carousel-indicators button {
     display: flex;
