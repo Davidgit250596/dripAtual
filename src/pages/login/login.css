@@ -1,8 +1,9 @@
 .formularioLogin{
     background-color: #ffffff;
     width: 400px;
-    padding: 8px;
+    padding: 15px;
     padding-top: 16px;
+    margin-left: 50px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -30,15 +31,20 @@
     height: 30px;
     background-color: #f8f6f6;
     border: none;
-    padding: 9px;
+    padding: 10px;
     margin: 10px 0 10px;
     width: 100%;
     
     
 }
-a{
-    margin-left: 5px;
+.esqueciSenha{
+    margin-left: 110px;
     color: black;
+    
+}
+.registreAqui{
+    color: black;
+    font-weight: 500;
     
 }
 
@@ -53,9 +59,15 @@ button{
 
 .facebookLogin{
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     gap: 10px;
     margin-top: 10px;
     font-size: 16px;
+}
+.imgRedesSociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -9,7 +9,7 @@ export default function Login() {
             <main className="mainLogin">
                 <div className="formularioLogin">
                     <h2>Acesse sua conta</h2>
-                    <p>Novo cliente? Então registre-se<a href="#">aqui.</a></p>
+                    <p>Novo cliente? Então registre-se <a className="registreAqui" href="#">aqui.</a></p>
 
                     <form className="formLogin">
                         <label htmlFor="login">Login</label>
@@ -27,14 +27,14 @@ export default function Login() {
                             name="senha"
                             placeholder="Insira sua senha"
                         />
-                        <a href="#">Esqueci minha senha</a>
+                        <a className="esqueciSenha" href="#">Esqueci minha senha</a>
 
 
                         <button type="submit">Acessar conta</button>
 
                         <div className="facebookLogin">
                             <p>Ou faça o login com</p>
-                            <img
+                            <img className="imgRedesSociais"
                                 src="src/assets/img/redes.png"
                                 alt="Login com Facebook"
                                 width="55"

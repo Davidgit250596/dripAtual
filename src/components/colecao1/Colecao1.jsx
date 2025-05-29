@@ -17,7 +17,7 @@ export default function () {
                         <span className="trintaoff">30% OFF</span>
 
                         <h1 className="novodrop">Novo Drop Supreme</h1>
-                        <a href="../pagina2/pagina2.html"><button className="btncomprarsupreme">Comprar</button></a>
+                        <a href="/Pagina2"><button className="btncomprarsupreme">Comprar</button></a>
                     </div>
 
                     <img src={BlusaSupreme} alt="" />
@@ -30,7 +30,7 @@ export default function () {
 
                         <h1 className="novodropdois">Coleção Adidas</h1>
 
-                        <a href="../pagina2/pagina2.html"><button className="btncompraradidas">Comprar</button></a>
+                        <a href="/pagina2"><button className="btncompraradidas">Comprar</button></a>
                     </div>
 
                     <img src={SapatoAdidas} alt="" />
@@ -42,7 +42,7 @@ export default function () {
 
                         <h1 className="novodroptres">Novo Beats Bass</h1>
 
-                        <a href="../pagina2/pagina2.html"><button className="btncomprarfone">Comprar</button></a>
+                        <a href="/pagina2"><button className="btncomprarfone">Comprar</button></a>
                     </div>
 
                     <img src={FoneDeOuvido} alt="" />

@@ -20,14 +20,14 @@ export default function () {
                     <div className="iconescolecoes">
                         <section className="secblusas">
                             <div className="blusas">
-                                <a href="../pagina2/pagina2.html"><img src={Blusa} alt="" /></a>
+                                <a href="/Pagina2"><img src={Blusa} alt="" /></a>
                             </div>
                             <div className="textoblusa">Blusas</div>
                         </section>
 
                         <section className="seccalcas">
                             <div className="calcas">
-                                <a href="../pagina2/pagina2.html"><img src={Calca} alt="" /></a>
+                                <a href="/Pagina2"><img src={Calca} alt="" /></a>
                             </div>
                             <div className="textocalca">Calças</div>
                         </section>
@@ -35,7 +35,7 @@ export default function () {
                         <section className="secbones">
 
                             <div className="bones">
-                                <a href="../pagina2/pagina2.html"><img src={Bone} width="70px" alt="" /></a>
+                                <a href="/Pagina2"><img src={Bone} width="70px" alt="" /></a>
                             </div>
                             <div className="textobones">Bonés</div>
                         </section>
@@ -43,14 +43,14 @@ export default function () {
                         <section className="secheadphones">
 
                             <div className="headphones">
-                                <a href="../pagina2/pagina2.html"><img src={HeadPhone} alt="" /></a>
+                                <a href="/Pagina2"><img src={HeadPhone} alt="" /></a>
                             </div>
                             <div className="textoheadphones">HeadPhones</div>
                         </section>
 
                         <section className="sectenis">
                             <div className="sapatin">
-                                <a href="../pagina2/pagina2.html"> <img src={Tenis} alt="" /></a>
+                                <a href="/Pagina2"> <img src={Tenis} alt="" /></a>
                             </div>
                             <div className="textoSapatoColecao">Ténis</div>
                         </section>

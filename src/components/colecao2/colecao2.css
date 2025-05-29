@@ -11,6 +11,7 @@
     gap: 52px;
 }
 
+
 .secprincipalicones {
     background-color: rgb(249 248 254);
     padding-bottom: 50px;
@@ -29,7 +30,9 @@
     gap: 30px;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
 }
-
+.secblusas:hover{
+   padding-bottom: 10px;
+}
 .blusas {
     display: flex;
     justify-content: center;
@@ -56,6 +59,9 @@
     flex-direction: column;
     gap: 30px;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
+}
+.seccalcas:hover{
+   padding-bottom: 10px;
 }
 
 .calcas {
@@ -84,7 +90,9 @@
     gap: 30px;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
 }
-
+.secbones:hover{
+   padding-bottom: 10px;
+}
 .bones {
     display: flex;
     justify-content: center;
@@ -110,6 +118,9 @@
     border-radius: 50%;
     gap: 30px;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
+}
+.secheadphones:hover{
+   padding-bottom: 10px;
 }
 
 .headphones {
@@ -137,7 +148,9 @@
     border-radius: 50%;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
 }
-
+.sectenis:hover{
+   padding-bottom: 10px;
+}
 .sapatin {
     display: flex;
     justify-content: space-around;

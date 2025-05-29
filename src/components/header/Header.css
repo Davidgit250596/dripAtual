@@ -4,7 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    /* padding: 1rem; */
+    padding: 1rem;
 
 }
 
@@ -61,6 +61,7 @@
 
 .linkcadastro {
     display: flex;
+    align-items: center;
     gap: 30px;
     margin-right: 30px;
 
@@ -68,7 +69,7 @@
 }
 
 .btn-cadastro {
-    padding: 8px 10px;
+    padding: 15px 10px;
     color: #000000;
     text-decoration: none;
     font-size: 17px;
@@ -77,6 +78,7 @@
 
 .btn-cadastro:hover {
     color: #c92071;
+    padding-top: 10px
 }
 
 .entrar {
@@ -99,20 +101,27 @@
     height: 24px;
     margin-left: 10px;
 }
+.imagemcarrinho:hover{
+    
+    margin-bottom: 10px;
+}
 
 .links {
     color: #474747;
+    height: 30px;
 
+}
+.links:hover{
+    padding-top: 2px;
 }
 
 .linksHeader {
     background-color: #ffffff;
-    padding: 10px 20px;
-    margin-left: 100px;
+    margin-left: 120px;
     margin-bottom: 25px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-family: "inter" sans-serif;
-    font-weight: 650;
+    font-weight: 600;
     display: flex;
     font-size: 17px;
     list-style: none;
@@ -132,7 +141,6 @@
 .linksHeader a:hover {
     color: rgb(201 32 113);
     font-weight: 650;
-    /* text-decoration: underline; */
     border-bottom: 4px solid rgb(201 32 113);
     border-radius: 1.5px;
 }

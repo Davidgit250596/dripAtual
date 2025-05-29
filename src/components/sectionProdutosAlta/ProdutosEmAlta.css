@@ -1,12 +1,40 @@
+.textoprodutosalta {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+
+}
+
+.textoprodutos {
+    background-color: rgb(249 248 254);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+
+}
+
+.textosecprodutosalta {
+    display: flex;
+    padding-left: 130px;
+    font-size: xx-large;
+    font-weight: 600;
+    color: #000000;
+
+}
+
 .linkvertodos {
     display: flex;
-    justify-content: end;
-    text-decoration: none;
+    text-decoration:none;
     color: #C92071;
+    margin-right: 145px;
 }
 
 .linkvertodos:hover {
     color: #C92071;
+    padding-bottom: 10px;
 }
 
 .setinha {

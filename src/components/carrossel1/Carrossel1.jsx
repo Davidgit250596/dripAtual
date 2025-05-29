@@ -52,7 +52,7 @@ export default function () {
                                         laboris
                                         eiusmod irure consectetur.</h1>
 
-                                    <a href="../pagina2/pagina2.html"><button type="button" className="btn-verofertas">Ver
+                                    <a href="/Pagina2"><button type="button" className="btn-verofertas">Ver
                                         Ofertas</button></a>
                             </div>
 

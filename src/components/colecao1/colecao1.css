@@ -91,7 +91,7 @@
 }
 
 .btncomprarsupreme:hover {
-    background-color: rgb(149, 189, 254);
+    background-color:  #c92071;
     transition-duration: 0.5s;
     color: rgb(245 245 245);
 
@@ -161,7 +161,7 @@
 }
 
 .btncompraradidas:hover {
-    background-color: rgb(149, 189, 254);
+    background-color:  #c92071;
     transition-duration: 0.5s;
     color: rgb(245 245 245);
 }
@@ -231,7 +231,7 @@
 }
 
 .btncomprarfone:hover {
-    background-color: rgb(149, 189, 254);
+    background-color:  #c92071;
     transition-duration: 0.5s;
     color: rgb(245 245 245);
 }
