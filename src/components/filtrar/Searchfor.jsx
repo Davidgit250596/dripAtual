@@ -7,11 +7,15 @@ export default function Searchfor() {
         <p>Resultado para "Tênis" - 389 produtos encontrados</p>
       </div>
       <div className="search-Filter">
-        <input
-          type="search"
-          className="search-inside"
-          placeholder="Filtrar por"
-        />
+
+        <select name="cars" id="cars" className="select-search">
+          <option value="volvo">Tenis</option>
+          <option value="saab">Camisas</option>
+          <option value="mercedes">Bonés</option>
+
+        </select>
+
+
       </div>
     </section>
   );
