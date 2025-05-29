@@ -1,88 +1,102 @@
 body {
-    background: #F9F8FE;
+  background: #f9f8fe;
 }
 
 .container {
-    margin: 20px;
-    
+  margin: 20px;
 }
 
 .menu label {
-    font-size: 14px;
-    font-weight: 500;
-    color: #474747;
-   
+  font-size: 14px;
+  font-weight: 500;
+  color: #474747;
 }
 
 .content {
-    display: flex;
-    gap: 80px;
-
+  display: flex;
+  gap: 80px;
 }
 
 .main-image {
-    width: 670px;
-    height: 520px;
+  width: 670px;
+  height: 520px;
 }
 
 .secondary-image {
-    display: flex;
-    top: 25px;
-    position: relative;
-    
+  display: flex;
+  top: 25px;
+  position: relative;
 }
 
 main {
-    top: 40px;
-    position: relative;
+  top: 40px;
+  position: relative;
+
+  max-width: 53.4%;
 }
 
 .T-aside {
-   
-    position: relative;
-    width: 600px;
-    
-    
-    
-} 
+  position: relative;
+  width: 600px;
+  margin-left: 50px;
+}
 .aside h1 {
-        font-weight: 700px;
-        size: 32px;
-        width: 500px;
-        margin: 0;
-        background-color: black;
-
-         }
-
-
-
-
-
-.d-block{
-    background-color: lightcoral;
-    width: 600px;
-    height: 450px;
+  font-weight: 700px;
+  size: 32px;
+  width: 500px;
+  margin: 0;
+  background-color: black;
 }
-.d-block2{
-    background-color: lightgreen;
-    width: 600px;
-    height: 450px;
-}
-.d-block3{
-    background-color: lightblue;
-    width: 600px;
-    height: 450px;
-}
-
-
 
 .revolution {
-    
-   
+  font-size: 30px;
+  margin-top: 30px;
 }
 
-.avalie{
-    margin-right: 10px;
-    margin-left: 10px;
+.style-Price {
+  font-weight: bold;
+  color: rgb(112, 111, 111);
+  margin-top: 10px;
 }
 
+.description-product {
+  color: #8f8f8f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.talls {
+  color: #8f8f8f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.choice {
+  display: flex;
+  gap: 10px;
+}
+
+.botaoComprar {
+  margin-top: 10px;
+}
+
+.d-block {
+  background-color: lightcoral;
+  width: 600px;
+  height: 450px;
+}
+.d-block2 {
+  background-color: lightgreen;
+  width: 600px;
+  height: 450px;
+}
+.d-block3 {
+  background-color: lightblue;
+  width: 600px;
+  height: 450px;
+}
+
+.avalie {
+  margin-right: 10px;
+  margin-left: 10px;
+}

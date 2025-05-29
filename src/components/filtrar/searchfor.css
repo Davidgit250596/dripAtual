@@ -1,0 +1,19 @@
+.result-t {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.search-Filter {
+  display: flex;
+  justify-content: left;
+
+  border: 1px solid black;
+  width: 290px;
+  margin-left: 999px;
+  margin-top: -50px;
+}
+
+.search-inside {
+  margin-left: -1px;
+  width: 280px;
+}
