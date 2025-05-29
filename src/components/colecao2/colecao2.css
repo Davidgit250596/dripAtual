@@ -5,7 +5,7 @@
 .iconesColecoes {
     display: flex;
     justify-content: center;
-    margin: 40px;
+    /* margin: 40px; */
     padding: 80px;
     gap: 52px;
 }
