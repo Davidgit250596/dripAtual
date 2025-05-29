@@ -6,7 +6,7 @@ body {
   margin: 20px;
 }
 .menu{
-  margin-left:100px;
+  margin-left:185px;
 }
 .menu label {
   font-size: 14px;
@@ -16,12 +16,9 @@ body {
 
 .content {
   display: flex;
-
-
-  
-
   width: 85%;
   margin-left: 100px;
+  justify-content: center;
 
 }
 
