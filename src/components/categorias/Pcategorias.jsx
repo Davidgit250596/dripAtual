@@ -12,7 +12,7 @@ export default function Pcategorias() {
           <label>Tênis /</label>
           <label>Nike /</label>
           <label>
-            Tênis Nike Revolution <br /> 6 Next Nature Masculino
+            Tênis Nike Revolution 6 Next Nature Masculino
           </label>
         </div>
 

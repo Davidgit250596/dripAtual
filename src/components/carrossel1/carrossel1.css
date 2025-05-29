@@ -1,6 +1,7 @@
 .itensDoCarrossel img {
     height: 720px;
 }
+
 .carousel-indicators {
     gap: 40px;
 }
