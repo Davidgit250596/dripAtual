@@ -11,31 +11,6 @@ Projeto frontend de um e-commerce moderno, responsivo e visualmente atrativo. De
 
 ---
 
-## 📁 Estrutura do Projeto
-
-📦 root/
-├── public/ # Arquivos públicos e imagens gerais
-├── src/
-│ ├── assets/ # Imagens e mídias
-│ ├── components/ # Componentes reutilizáveis
-│ │ ├── header/ # Cabeçalho do site
-│ │ ├── footer/ # Rodapé com redes sociais
-│ │ ├── card/ # Cards de produto
-│ │ ├── carrossel1/ # Banner rotativo
-│ │ ├── categorias/ # Filtros por categoria
-│ │ ├── colecao1/2/ # Seções promocionais de coleções
-│ │ ├── filtro/ # Barra lateral de filtro
-│ │ ├── cadastro/ # Formulário de cadastro
-│ │ └── airJordan/ # Página especial Air Jordan
-│ ├── pages/ # Páginas principais do site
-│ │ ├── pagina1/2/3/ # Landing pages e página de produto
-│ │ └── login/ # Página de login
-│ ├── routes/ # Rotas do React Router
-│ ├── App.jsx # Arquivo principal da aplicação
-│ └── main.jsx # Ponto de entrada
-├── package.json # Dependências e scripts
-├── vite.config.js # Configurações do Vite
-└── README.md
 
 
 ---
@@ -86,6 +61,33 @@ Rota	Componente/Página	Descrição
 /air-jordan	AirJordan	Página promocional temática
 /login	Login	Tela de login
 /cadastro	Cadastro	Formulário de criação de conta
+
+## 📁 Estrutura do Projeto
+
+📦 root/
+├── public/ # Arquivos públicos e imagens gerais
+├── src/
+│ ├── assets/ # Imagens e mídias
+│ ├── components/ # Componentes reutilizáveis
+│ │ ├── header/ # Cabeçalho do site
+│ │ ├── footer/ # Rodapé com redes sociais
+│ │ ├── card/ # Cards de produto
+│ │ ├── carrossel1/ # Banner rotativo
+│ │ ├── categorias/ # Filtros por categoria
+│ │ ├── colecao1/2/ # Seções promocionais de coleções
+│ │ ├── filtro/ # Barra lateral de filtro
+│ │ ├── cadastro/ # Formulário de cadastro
+│ │ └── airJordan/ # Página especial Air Jordan
+│ ├── pages/ # Páginas principais do site
+│ │ ├── pagina1/2/3/ # Landing pages e página de produto
+│ │ └── login/ # Página de login
+│ ├── routes/ # Rotas do React Router
+│ ├── App.jsx # Arquivo principal da aplicação
+│ └── main.jsx # Ponto de entrada
+├── package.json # Dependências e scripts
+├── vite.config.js # Configurações do Vite
+└── README.md
+
 
 
 👨‍💻 Autores
