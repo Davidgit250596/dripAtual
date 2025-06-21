@@ -62,9 +62,7 @@ Rota	Página/Componente	Descrição
 /cadastro	Cadastro	Formulário de cadastro
 
 📁 Estrutura do Projeto
-plaintext
-Copy
-Edit
+
 📦 root/
 ├── public/                 # Arquivos públicos e imagens gerais
 ├── src/
