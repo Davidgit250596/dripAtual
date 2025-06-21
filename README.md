@@ -1,97 +1,103 @@
- #🛒 Digital Store – E-commerce Frontend
+# 🛒 Digital Store – E-commerce Frontend
 
 ![React](https://img.shields.io/badge/React-18.x-blue?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-5.x-purple?logo=vite)
 ![Status](https://img.shields.io/badge/status-Em%20Desenvolvimento-yellow)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-Projeto frontend de um e-commerce moderno, responsivo e visualmente atrativo. Desenvolvido com *React* usando *Vite* para otimização de performance e organização modular por componentes.  
+**Digital Store** é um projeto frontend de um e-commerce moderno, responsivo e visualmente atrativo. Desenvolvido com **React** e **Vite**, o sistema tem como foco a performance, organização modular e experiência do usuário.
 
-> O sistema simula uma loja virtual com páginas, filtros, seções promocionais e tela de cadastro/login.
-
----
-
-
+> O projeto simula uma loja virtual com páginas promocionais, filtros de busca, vitrine de produtos e telas de login/cadastro.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- 🎯 Página inicial com carrossel e destaques
-- 🛍 Listagem de produtos com imagens e descrição
+- 🎯 Página inicial com carrossel e seções de destaques
+- 🛍️ Listagem de produtos com imagens, descrições e preços
 - 🔎 Filtros por categorias, nome e tipo
-- 🧾 Página de produto com avaliação
+- 🧾 Página de detalhes do produto com avaliações
 - 👟 Página temática da linha Air Jordan
-- 🔐 Tela de cadastro e login (visual)
-- 📱 Layout responsivo
+- 🔐 Telas visuais de cadastro e login
+- 📱 Layout responsivo para dispositivos móveis
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-- *[React](https://reactjs.org/)* – Biblioteca principal
-- *[Vite](https://vitejs.dev/)* – Bundler para build e dev
-- *React Router Dom* – Roteamento SPA
-- *CSS Modules / CSS Global* – Estilização
-- *Imagens e ícones customizados* – Ilustrações personalizadas
+- [**React**](https://reactjs.org/) – Biblioteca para construção de interfaces
+- [**Vite**](https://vitejs.dev/) – Bundler para desenvolvimento e build
+- **React Router DOM** – Gerenciamento de rotas SPA
+- **CSS Modules / CSS Global** – Estilização dos componentes
+- **Imagens e ícones personalizados** – Design visual customizado
 
 ---
 
-## 📦 Instalação
+## 📦 Instalação e Uso
 
-1. Clone o projeto:
+Siga os passos abaixo para rodar o projeto localmente:
 
+1. **Clone o repositório:**
+
+```bash
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio
 Instale as dependências:
 
-
+bash
+Copy
+Edit
 npm install
-Execute em modo desenvolvimento:
+Execute o projeto:
 
-
+bash
+Copy
+Edit
 npm run dev
-A aplicação estará disponível em http://localhost:5173.
+Acesse no navegador:
 
+arduino
+Copy
+Edit
+http://localhost:5173
 🌐 Rotas Principais
-Rota	Componente/Página	Descrição
-/	Pagina1	Página inicial
-/produtos	Pagina2	Listagem de produtos
-/detalhes	Pagina3	Página de detalhes do produto
-/air-jordan	AirJordan	Página promocional temática
-/login	Login	Tela de login
-/cadastro	Cadastro	Formulário de criação de conta
+Rota	Página/Componente	Descrição
+/	Pagina1	Página inicial com destaques
+/produtos	Pagina2	Listagem geral de produtos
+/detalhes	Pagina3	Detalhes de um produto específico
+/air-jordan	AirJordan	Página promocional especial
+/login	Login	Tela de login do usuário
+/cadastro	Cadastro	Formulário de cadastro
 
-## 📁 Estrutura do Projeto
-
+📁 Estrutura do Projeto
+plaintext
+Copy
+Edit
 📦 root/
-├── public/ # Arquivos públicos e imagens gerais
+├── public/                 # Arquivos públicos e imagens gerais
 ├── src/
-│ ├── assets/ # Imagens e mídias
-│ ├── components/ # Componentes reutilizáveis
-│ │ ├── header/ # Cabeçalho do site
-│ │ ├── footer/ # Rodapé com redes sociais
-│ │ ├── card/ # Cards de produto
-│ │ ├── carrossel1/ # Banner rotativo
-│ │ ├── categorias/ # Filtros por categoria
-│ │ ├── colecao1/2/ # Seções promocionais de coleções
-│ │ ├── filtro/ # Barra lateral de filtro
-│ │ ├── cadastro/ # Formulário de cadastro
-│ │ └── airJordan/ # Página especial Air Jordan
-│ ├── pages/ # Páginas principais do site
-│ │ ├── pagina1/2/3/ # Landing pages e página de produto
-│ │ └── login/ # Página de login
-│ ├── routes/ # Rotas do React Router
-│ ├── App.jsx # Arquivo principal da aplicação
-│ └── main.jsx # Ponto de entrada
-├── package.json # Dependências e scripts
-├── vite.config.js # Configurações do Vite
-└── README.md
-
-
-
+│   ├── assets/             # Imagens e mídias
+│   ├── components/         # Componentes reutilizáveis
+│   │   ├── header/         # Cabeçalho do site
+│   │   ├── footer/         # Rodapé com redes sociais
+│   │   ├── card/           # Cards de produto
+│   │   ├── carrossel1/     # Banner rotativo
+│   │   ├── categorias/     # Filtros por categoria
+│   │   ├── colecao1/2/     # Seções promocionais
+│   │   ├── filtro/         # Barra lateral de filtro
+│   │   ├── cadastro/       # Formulário de cadastro
+│   │   └── airJordan/      # Página temática Air Jordan
+│   ├── pages/              # Páginas principais do site
+│   │   ├── pagina1/2/3/    # Páginas de navegação
+│   │   └── login/          # Tela de login
+│   ├── routes/             # Arquivo de rotas (React Router)
+│   ├── App.jsx             # Componente principal
+│   └── main.jsx            # Ponto de entrada do app
+├── package.json            # Configuração e dependências
+├── vite.config.js          # Configurações do Vite
+└── README.md               # Este arquivo
 👨‍💻 Autores
-Projeto desenvolvido por alunos da formação Geração Tech.
+Projeto desenvolvido como parte da formação Geração Tech.
 
 João Felipe
 
@@ -102,4 +108,5 @@ Karol Danttas
 Lannylton
 
 📄 Licença
-Este projeto está sob a Licença MIT. Veja mais em LICENSE.
+Este projeto está licenciado sob a licença MIT.
+Consulte o arquivo LICENSE para mais detalhes.
