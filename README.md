@@ -39,26 +39,18 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 1. **Clone o repositório:**
 
-```bash
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio
 Instale as dependências:
 
-bash
-Copy
-Edit
 npm install
 Execute o projeto:
 
-bash
-Copy
-Edit
+
 npm run dev
 Acesse no navegador:
 
-arduino
-Copy
-Edit
+
 http://localhost:5173
 🌐 Rotas Principais
 Rota	Página/Componente	Descrição
