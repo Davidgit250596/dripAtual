@@ -86,6 +86,8 @@ Rota	Página/Componente	Descrição
 ├── package.json            # Configuração e dependências
 ├── vite.config.js          # Configurações do Vite
 └── README.md               # Este arquivo
+
+
 👨‍💻 Autores
 Projeto desenvolvido como parte da formação Geração Tech.
 
